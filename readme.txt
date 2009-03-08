@@ -3,10 +3,10 @@ Contributors: oremj, freddyware
 Tags: css, wpmu, appearance, themes
 Requires at least: 2.7
 Tested up to: 2.8-bleeding-edge
-Stable tag: 0.1
+Stable tag: 0.2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=759905
 
-A simple mu-plugin enabling custom CSS on WordPress µ blogs.
+A simple (mu-)plugin enabling custom CSS on WordPress and WordPress µ blogs.
 
 == Description ==
 
@@ -18,6 +18,12 @@ that allows users to enter custom CSS code that will be injected into the
 and is filtered through a standard PHP function before being outputted, preventing
 the user from inserting malicious code into the header.
 
+For non-WordPress µ blogs, this plugin provides an easy way to modify the appearance of installed
+themes or plugins (such as Sociable) without modifying theme/plugin files that may change
+with upgrades. No write access is required to any files for Simpler CSS to function, as it stores
+its data in the database's options table — and that means theme/plugin upgrades won't impact
+your custom CSS.
+   
 The custom CSS will only show when the theme has the necessary `wp_header()` function
 in the `<head>` section, as most themes now do.
 
@@ -25,9 +31,12 @@ Props go to Jeremiah Orem who created the original Custom User CSS plugin on the
 I merely took that, contributed a thorough readme.txt, and fixed the code to add the menu item
 under the Appearance menu.
 
+[Changelog](http://simplerplugins.wordpress.com/tag/changelog/)
+
 == Installation ==
 = For WordPress µ =
-1. Upload the `simpler-css.php` file to the `/wp-content/mu-plugins/` directory.
+1. Upload the `simpler-css.php` file to the `/wp-content/mu-plugins/` directory. The other files
+should not be uploaded, and the file cannot be in a subdirectory.
 2. You're done! As a mu-plugin, Simpler CSS is automatically enabled for all blogs.
 = For normal WordPress installations =
 1. Upload the `simpler-css` directory to the `/wp-content/plugins/` directory.
@@ -54,3 +63,6 @@ them manually in your CSS code could lead to malfunctions.
 == Screenshots ==
 1. The menu item as it appears under the Appearance menu.
 2. The options page, with CSS code.
+
+== Changelog ==
+Please see [the Simpler Plugins blog's "changelog" posts](http://simplerplugins.wordpress.com/tag/changelog/) for more details.
