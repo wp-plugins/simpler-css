@@ -3,7 +3,7 @@ Contributors: oremj, freddyware
 Tags: css, wpmu, appearance, themes
 Requires at least: 2.7
 Tested up to: 2.8-bleeding-edge
-Stable tag: 0.2
+Stable tag: 0.2b
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=759905
 
 A simple (mu-)plugin enabling custom CSS on WordPress and WordPress µ blogs.
