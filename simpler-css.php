@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simpler CSS
-Plugin URI: http://simpler.freddyware.com/
+Plugin URI: http://simplerplugins.wordpress.com/
 Description: Simplifies custom CSS on WordPress µ blogs.
 Version: 0.2
 Author: Frederick Ding
