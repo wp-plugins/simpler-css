@@ -2,8 +2,8 @@
 Contributors: oremj, freddyware
 Tags: css, wpmu, appearance, themes
 Requires at least: 2.7
-Tested up to: 2.8-bleeding-edge
-Stable tag: 0.2b
+Tested up to: 2.9-rare
+Stable tag: 0.3
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=759905
 
 A simple (mu-)plugin enabling custom CSS on WordPress and WordPress µ blogs.
@@ -30,8 +30,6 @@ in the `<head>` section, as most themes now do.
 Props go to Jeremiah Orem who created the original Custom User CSS plugin on the directory.
 I merely took that, contributed a thorough readme.txt, and fixed the code to add the menu item
 under the Appearance menu.
-
-[Changelog](http://simplerplugins.wordpress.com/tag/changelog/)
 
 == Installation ==
 = For WordPress µ =
@@ -65,4 +63,6 @@ them manually in your CSS code could lead to malfunctions.
 2. The options page, with CSS code.
 
 == Changelog ==
-Please see [the Simpler Plugins blog's "changelog" posts](http://simplerplugins.wordpress.com/tag/changelog/) for more details.
+
+= 0.3 =
+* Updated compatibility to 2.9-rare (Subversion trunk version)
