@@ -115,7 +115,7 @@ function simpler_css_options() {
 	echo $opt_name?>">
 <?php
 	echo $css_val?>
-</textarea>
+</textarea></td>
 	
 	</tr>
 
