@@ -63,7 +63,7 @@ function simpler_css_addcss() {
 }
 
 function simpler_css_filter($_content) {
-	$_return = preg_replace ( '/@import.+;( |)|((?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/))/gi', '', $_content );
+	$_return = preg_replace ( '/@import.+;( |)|((?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/))/i', '', $_content );
 	$_return = htmlspecialchars ( strip_tags($_return), ENT_NOQUOTES, 'UTF-8', FALSE );
 	return $_return;
 }
