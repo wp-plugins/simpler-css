@@ -3,7 +3,7 @@
 Plugin Name: Simpler CSS
 Plugin URI: http://simplerplugins.wordpress.com/
 Description: Simplifies custom CSS on WordPress µ blogs.
-Version: 0.3
+Version: 0.4
 Author: Frederick Ding
 Author URI: http://www.frederickding.com/
 Forked from Jeremiah Orem's Custom User CSS plugin.
@@ -63,7 +63,7 @@ function simpler_css_addcss() {
 }
 
 function simpler_css_filter($_content) {
-	$_return = preg_replace ( '/@import.+;( |)|((?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/)|(?:\/\/.*))/i', '', $_content );
+	$_return = preg_replace ( '/@import.+;( |)|((?:\/\*(?:[^*]|(?:\*+[^*\/]))*\*+\/))/gi', '', $_content );
 	$_return = htmlspecialchars ( strip_tags($_return), ENT_NOQUOTES, 'UTF-8', FALSE );
 	return $_return;
 }
