@@ -2,8 +2,8 @@
 Contributors: oremj, freddyware
 Tags: css, wpmu, appearance, themes
 Requires at least: 2.7
-Tested up to: 2.9-rare
-Stable tag: 0.4
+Tested up to: 3.0-alpha
+Stable tag: 0.5
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=759905
 
 A simple (mu-)plugin enabling custom CSS on WordPress and WordPress µ blogs.
@@ -63,6 +63,10 @@ them manually in your CSS code could lead to malfunctions.
 2. The options page, with CSS code.
 
 == Changelog ==
+
+= 0.5 =
+* Updated compatibility to 3.0-alpha (Subversion trunk version)
+* Fixed `htmlspecialchars()` usage to be compatible with PHP < 5.2.3 
 
 = 0.4 =
 * Fixed `<td>` tag that wasn't closed
