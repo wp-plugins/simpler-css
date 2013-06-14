@@ -1,8 +1,8 @@
 === Simpler CSS ===
-Contributors: oremj, freddyware
+Contributors: frederick.ding, freddyware, oremj
 Tags: css, wpmu, appearance, themes
 Requires at least: 2.7
-Tested up to: 3.0-alpha
+Tested up to: 3.0
 Stable tag: 0.5
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=759905
 
